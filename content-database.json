@@ -1,0 +1,277 @@
+{
+  "unit": "Seismic Hazard Resilience Unit (SHRU)",
+  "university": "University of Duhok - College of Engineering",
+  "generatedAt": "2026-08-30T14:51:13.557Z",
+  "config": {
+    "githubUsername": "uod-engineering",
+    "repoName": "shru-seismic-unit",
+    "branch": "main",
+    "customDomain": "shru.uod.ac",
+    "includeGithubAction": true
+  },
+  "items": [
+    {
+      "id": "paper-psha-duhok-2025",
+      "type": "research-paper",
+      "title": "Probabilistic Seismic Hazard Assessment (PSHA) for Duhok Governorate and the Zagros Fold-and-Thrust Belt",
+      "titleKurdish": "هەلسەنگاندنا ئەگەرین مەترسیا عەرد هەژینێ بۆ پارێزگەها دهۆکێ و زنجیرە چیاین زاگرۆس",
+      "titleArabic": "تقييم المخاطر الزلزالية الاحتمالية لمحافظة دهوك وحزام طيات زاجروس",
+      "slug": "psha-duhok-zagros-belt",
+      "date": "2025-08-14",
+      "author": "Dr. Hameed B. Navi",
+      "authorAffiliation": "Department of Civil Engineering, University of Duhok",
+      "coAuthors": [
+        "Dr. Farhad A. Yousif",
+        "Prof. Zana K. Rostam",
+        "Dr. Elena Rossi"
+      ],
+      "abstract": "This paper presents an updated probabilistic seismic hazard assessment (PSHA) for Duhok Governorate, Northern Iraq. Incorporating newly cataloged regional seismicity from the Bitlis-Zagros Suture Zone and the East Anatolian Fault systems, hazard curves for Peak Ground Acceleration (PGA) and spectral accelerations (T = 0.2s and 1.0s) for 10% and 2% probability of exceedance in 50 years (475-year and 2475-year return periods) are developed using cutting-edge Ground Motion Prediction Equations (GMPEs).",
+      "content": "## Abstract\nThis study establishes a refined **Probabilistic Seismic Hazard Assessment (PSHA)** for the Duhok urban center and surrounding districts within the Kurdistan Region of Iraq. Due to its tectonic positioning proximate to the active convergent boundary of the Arabian and Eurasian plates, reliable seismic hazard zoning is vital for civil infrastructure resilience.\n\n## Tectonic Setting & Seismicity Catalog\nThe study area is bounded by two prominent tectonic active structures:\n1. **The Zagros Fold-and-Thrust Belt (ZFTB)** to the east and south-east.\n2. **The Bitlis Suture Zone** and nearby strike-slip branches of the **East Anatolian Fault (EAF)** to the north and north-west.\n\nAn updated harmonized earthquake catalog (covering historical events from 1900 to 2025 with $M_w \\ge 3.5$) was compiled using records from the Iraqi Seismic Network, Kandilli Observatory (KOERI), and EMSC. Declustering was performed using the Gardner-Knopoff algorithm to eliminate aftershocks and foreshocks.\n\n## Ground Motion Prediction Equations (GMPE)\nA weighted logic-tree framework was implemented utilizing three modern Next Generation Attenuation (NGA-West2) models:\n* Boore et al. (2014) - Weight: 0.40\n* Campbell & Bozorgnia (2014) - Weight: 0.35\n* Chiou & Youngs (2014) - Weight: 0.25\n\n$$\\ln(Y) = f(M, R, V_{s30}, \\text{Fault Type})$$\n\n## Results & Findings\n- **475-year return period (10% in 50 years):** Uniform Hazard PGA ranges from **0.16g to 0.24g** across Duhok Governorate.\n- **2,475-year return period (2% in 50 years):** Maximum PGA reaches **0.38g** in northern mountainous zones adjacent to active fault segments.\n- Recommended design response spectra are formulated for local Site Classes B, C, and D based on $V_{s30}$ geophysical surveys conducted at key urban construction sectors in Duhok city.\n\n## Conclusions & Policy Recommendations\n1. Modern structural codes (such as modern updates to the Iraqi Seismic Code and ASCE 7-22) must be strictly enforced for critical infrastructure including hospitals, bridges, and high-occupancy university facilities.\n2. Microzonation studies should be expanded for riverbank gravel basins and steep slope areas prone to co-seismic landslides during moderate-to-severe ground shaking.",
+      "tags": [
+        "PSHA",
+        "Seismic Hazard",
+        "Duhok",
+        "Zagros Belt",
+        "GMPE",
+        "Civil Engineering"
+      ],
+      "doi": "10.1016/j.soildyn.2025.108920",
+      "pdfUrl": "https://example.com/papers/psha-duhok-2025.pdf",
+      "status": "published",
+      "featured": true,
+      "coverImage": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+      "metrics": {
+        "views": 1420,
+        "downloads": 412,
+        "citations": 18
+      }
+    },
+    {
+      "id": "paper-nonlinear-rc-frames-2025",
+      "type": "research-paper",
+      "title": "Nonlinear Dynamic Response of Irregular RC Frame Buildings Under Near-Fault Pulse-Like Ground Motions",
+      "titleKurdish": "بەرسڤدانا دینامیکی نەخێڵی یا ئاڤاهێن هەیکەلی یێن کۆنکریتی ل ژێر شەپۆلێن عەرد هەژینێ یێن نێزیک دەرزیێ",
+      "titleArabic": "الاستجابة الديناميكية غير الخطية للمباني الهيكلية الخرسانية غير المنتظمة تحت تأثير الحركات الأرضية النبضية القريبة من الصدع",
+      "slug": "nonlinear-rc-frames-near-fault",
+      "date": "2025-06-20",
+      "author": "Dr. Rezan S. Ahmed",
+      "authorAffiliation": "Department of Civil Engineering, University of Duhok",
+      "coAuthors": [
+        "Dr. Hameed B. Navi",
+        "Eng. Dilshad M. Tahir"
+      ],
+      "abstract": "Near-fault ground motions characterized by long-period velocity pulses impose severe seismic demands on multi-story reinforced concrete (RC) buildings with vertical irregularities. This research analyzes 3D nonlinear time-history response of 6-to-15 story RC frames common in Northern Iraq, proposing modified ductility reduction factors.",
+      "content": "## Investigation Overview\nVertical structural irregularities (such as soft-story ground levels for commercial shops and setback geometric offsets) represent a prevalent architectural pattern in newly developing metropolitan zones in Duhok and the wider Kurdistan region. \n\nThis research investigates the performance of these buildings under 40 synthetic and recorded near-fault pulse records exhibiting strong forward-directivity effects.\n\n## Numerical Modeling Framework\n- **Platform:** OpenSees (Open System for Earthquake Engineering Simulation) with fiber beam-column elements.\n- **Material Models:** Concrete02 (Kent-Scott-Park with linear tension softening) and Steel02 (Giuffré-Menegotto-Pinto).\n- **Limit States Checked:** Immediate Occupancy (IO), Life Safety (LS), and Collapse Prevention (CP) under ASCE 41-23.\n\n## Key Outcomes\n1. Traditional equivalent static force procedures underestimate inter-story drift demands by up to **44%** at the soft-story level under velocity pulses.\n2. Introduction of Buckling-Restrained Braces (BRBs) or corner shear walls reduces top roof displacement by **38%** and eliminates sudden inter-story drift concentration.",
+      "tags": [
+        "Nonlinear Analysis",
+        "RC Buildings",
+        "Near-Fault Pulses",
+        "OpenSees",
+        "Soft-Story"
+      ],
+      "doi": "10.1061/(ASCE)ST.1943-541X.0003891",
+      "pdfUrl": "https://example.com/papers/rc-frames-near-fault-2025.pdf",
+      "status": "published",
+      "featured": true,
+      "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "metrics": {
+        "views": 980,
+        "downloads": 275,
+        "citations": 9
+      }
+    },
+    {
+      "id": "paper-duhok-dam-seismic-2025",
+      "type": "research-paper",
+      "title": "Seismic Stability and Dynamic Deformation Assessment of Duhok Earthfill Dam Under Maximum Credible Earthquake",
+      "titleKurdish": "هەلسەنگاندنا سەقامگیریا عەرد هەژینێ و شێواندنا دینامیکی یا بەنداڤا دهۆکێ ل بن کارتێکرنا بلندترین عەرد هەژینا پێشبینیکری",
+      "titleArabic": "تقييم الاستقرار الزلزالي والتشوه الديناميكي لسد دهوك الترابي تحت تأثير أقصى زلزال معقول",
+      "slug": "duhok-dam-seismic-stability",
+      "date": "2025-04-10",
+      "author": "Prof. Luqman H. Salih",
+      "authorAffiliation": "Water Resources & Geotechnical Engineering, University of Duhok",
+      "coAuthors": [
+        "Dr. Hameed B. Navi",
+        "Eng. Azad K. Merani"
+      ],
+      "abstract": "Comprehensive 2D finite element dynamic deformation analysis of the Duhok Dam (60m-high zoned earthfill embankment) subjected to simulated M7.2 earthquake scenarios. The analysis evaluates excess pore-water pressure generation, crest settlement, and post-seismic slope safety factors.",
+      "content": "## Critical Infrastructure Evaluation\nThe Duhok Dam is a crucial water storage and flood protection facility located immediately upstream of Duhok city. Evaluating its structural integrity against Maximum Credible Earthquakes (MCE) is a core safety mission of the Seismic Hazard Resilience Unit (SHRU).\n\n### Numerical Soil Model\n- Coupled dynamic stress-pore pressure finite element simulation in PLAXIS 2D / FLAC.\n- Hardening Soil model with small-strain stiffness (HSsmall) calibrated from in-situ Downhole seismic tests and resonant column lab experiments conducted at the College of Engineering Geotechnical Lab.\n\n### Conclusions\n- The calculated permanent crest settlement under the critical MCE ground motion ($PGA = 0.32g$) is estimated at **0.24 m**, which represents less than 4% of the dam's 6.0 m active freeboard.\n- No continuous liquefaction zone develops within the compacted clayey core or upstream shell; downstream drainage filter prevents seepage erosion post-shaking.",
+      "tags": [
+        "Earth Dam",
+        "Geotechnical",
+        "Duhok Dam",
+        "FEM Dynamic Analysis",
+        "Liquefaction"
+      ],
+      "doi": "10.1016/j.compgeo.2025.106280",
+      "pdfUrl": "https://example.com/papers/duhok-dam-2025.pdf",
+      "status": "published",
+      "featured": false,
+      "coverImage": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=1200&q=80",
+      "metrics": {
+        "views": 1150,
+        "downloads": 340,
+        "citations": 12
+      }
+    },
+    {
+      "id": "paper-rvs-schools-kurdistan",
+      "type": "technical-report",
+      "title": "FEMA P-154 Rapid Visual Screening (RVS) of School Facilities in Duhok Governorate: Risk Ranking and Retrofit Priority Index",
+      "titleKurdish": "پشکنینا بلەز یا بینایی (RVS) بۆ قوتابخانەیێن پارێزگەها دهۆکێ: پلەبەندییا مەترسیێ و پلانێن بهێزکرنێ",
+      "titleArabic": "الفحص البصري السريع لمباني المدارس في محافظة دهوك: تصنيف المخاطر وخطة التدعيم الإنشائي",
+      "slug": "rvs-schools-duhok-kurdistan",
+      "date": "2025-02-15",
+      "author": "Seismic Hazard Resilience Unit (SHRU) Technical Committee",
+      "authorAffiliation": "University of Duhok - College of Engineering",
+      "coAuthors": [
+        "Dr. Hameed B. Navi",
+        "Dr. Rezan S. Ahmed",
+        "Eng. Shivan K. Barwari"
+      ],
+      "abstract": "Survey and risk scoring of 120 public school buildings in Duhok urban and rural sectors. 18% were identified with seismic vulnerability scores below the FEMA cutoff threshold (S < 2.0), requiring detailed Tier-2 structural engineering evaluation.",
+      "content": "## Executive Summary\nSchools serve as both critical centers of community assembly and potential emergency shelters in post-disaster scenarios. Under the mandate of the University of Duhok College of Engineering, SHRU deployed engineering field inspection teams to conduct systematic rapid visual screening.\n\n### Methodology\n1. Collection of structural drawings, construction year, and soil classification.\n2. Identification of basic building types: Concrete Moment Frames (C1), Unreinforced Masonry (URM), and Precast Concrete (PC).\n3. Score modifications based on vertical irregularities, plan irregularity, pounding potential, and soil class.\n\n### Key Statistics\n- **Total Facilities Inspected:** 120 schools (480 building blocks)\n- **Low Vulnerability ($S \\ge 2.0$):** 64%\n- **Moderate Vulnerability ($1.0 \\le S < 2.0$):** 18%\n- **High Vulnerability ($S < 1.0$):** 18% (Primarily pre-1995 unreinforced masonry structures with heavy concrete slabs).\n\n### Recommendations\nA phased retrofitting guideline with steel jacketing of exterior columns and shotcrete shear wall additions is proposed, with estimated retrofit cost averaging 12-15% of total replacement value.",
+      "tags": [
+        "RVS",
+        "School Safety",
+        "FEMA P-154",
+        "Structural Screening",
+        "Disaster Mitigation"
+      ],
+      "doi": "10.1007/s10518-024-02010-8",
+      "status": "published",
+      "featured": false,
+      "coverImage": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+      "metrics": {
+        "views": 820,
+        "downloads": 195,
+        "citations": 5
+      }
+    },
+    {
+      "id": "news-accelerometer-network-2025",
+      "type": "news",
+      "title": "Deployment of Strong-Motion Accelerometer Array Across University of Duhok Campus and Strategic Bridges",
+      "titleKurdish": "دانانا تۆڕەکا ئامیرێن پێڤانا عەرد هەژینێ یێن بهێز ل کەمپوسا زانکۆیا دهۆک و پرێن ستراتیجی",
+      "titleArabic": "تركيب شبكة مقاييس التسارع للرصد الزلزالي القوي في حرم جامعة دهوك والجسور الاستراتيجية",
+      "slug": "strong-motion-array-duhok-2025",
+      "date": "2025-08-01",
+      "author": "SHRU Press Office",
+      "abstract": "SHRU has completed phase 1 deployment of three-component digital strong-motion accelerographs (GeoSIG / Kinemetrics) across key civil infrastructure in Duhok to capture real-time ground shaking.",
+      "content": "The **Seismic Hazard Resilience Unit (SHRU)** at the University of Duhok College of Engineering announces the operational launch of its dedicated strong-motion monitoring array.\n\n### Installed Stations:\n1. **UoD Engineering Central Station (SHRU-01):** Free-field instrument situated on limestone bedrock bedrock at the central campus.\n2. **Duhok Ring Road Viaduct Station (SHRU-02):** Pier base and deck sensors monitoring structural vibration and seismic traffic interaction.\n3. **Duhok Dam Abutment Station (SHRU-03):** Continuous dynamic telemetry streaming to the SHRU seismic data lab.\n\nData recorded will be publicly shared in standard miniSEED and SAC formats with academic researchers and emergency management authorities across Iraq and international seismological federations.",
+      "tags": [
+        "Instrumentation",
+        "Accelerograph",
+        "Monitoring",
+        "Campus News"
+      ],
+      "status": "published",
+      "featured": true,
+      "coverImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "announcement-resilience-conference-2025",
+      "type": "announcement",
+      "title": "Call for Abstracts: 2nd Kurdistan International Conference on Earthquake Engineering & Disaster Resilience (KICEDR-2026)",
+      "titleKurdish": "گەنگەشەیا نڤیسینا ڤەکۆلینان: دووەمین کۆنفرانسێ نێڤدەولەتی یێ کوردستانێ بۆ ئەندازیاریا عەرد هەژینان ٢٠٢٦",
+      "titleArabic": "دعوة لتقديم الأوراق البحثية: المؤتمر الدولي الثاني للهندسة الزلزالية وإدارة الكوارث في كردستان 2026",
+      "slug": "kicedr-2026-call-for-papers",
+      "date": "2025-08-25",
+      "author": "Conference Organizing Committee",
+      "abstract": "Hosted by College of Engineering - University of Duhok, bringing together leading researchers from the Middle East, Europe, and North America on seismic hazard mitigation.",
+      "content": "### Important Dates\n- **Abstract Submission Deadline:** November 15, 2025\n- **Notification of Acceptance:** December 20, 2025\n- **Full Paper Submission:** February 10, 2026\n- **Conference Dates:** April 22–24, 2026\n\n### Conference Themes:\n1. Seismic Hazard Assessment & Microzonation in Active Fold Belts\n2. Performance-Based Earthquake Engineering (PBEE) for Modern & Heritage Structures\n3. Geotechnical Earthquake Engineering & Soil Liquefaction\n4. AI and Machine Learning in Post-Disaster Damage Detection & Drone Inspection\n5. Community Preparedness and Civil Defense Preparedness Protocols\n\nAccepted peer-reviewed papers will be published in Scopus-indexed conference proceedings.",
+      "tags": [
+        "Conference",
+        "Call for Papers",
+        "KICEDR",
+        "Events"
+      ],
+      "status": "published",
+      "featured": true,
+      "coverImage": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "bulletin-public-safety-guidelines",
+      "type": "seismic-bulletin",
+      "title": "Public Structural Safety Directive: Earthquake Preparedness & Immediate Actions for Residential Buildings",
+      "titleKurdish": "رێنمایێن پاراستنا گشتی: بەرهەڤی و رەوشا بلەز د دەمێ ڕوودانا عەرد هەژینێ دا بۆ ئاڤاهیێن ئاکنجیبوونێ",
+      "titleArabic": "توجيهات السلامة الإنشائية العامة: إرشادات الاستعداد والتصرف الفوري أثناء الزلازل للمباني السكنية",
+      "slug": "earthquake-preparedness-safety-directive",
+      "date": "2025-07-10",
+      "author": "SHRU Disaster Risk Reduction Team",
+      "abstract": "Standard operating safety guidelines for citizens, schools, and building administrators in Duhok and surrounding valleys during and after seismic tremors.",
+      "content": "### During the Shaking (Inside a Building):\n* **DROP, COVER, and HOLD ON.** Drop to your hands and knees under a sturdy desk or table.\n* Stay away from exterior glass windows, unsupported partition walls, and unanchored tall bookshelves.\n* **DO NOT** use elevators during or immediately after ground motion.\n\n### After the Shaking Stops:\n* Check for natural gas leaks, exposed electrical wiring, and cracked water pipes.\n* Visually inspect major reinforced concrete columns and load-bearing walls for diagonal **X-cracks** or spalling concrete.\n* If deep structural shear cracks are observed, safely evacuate to designated open assembly zones and notify municipal engineering inspection authorities.\n\n### Emergency Contact:\n- **SHRU Seismic Information Line:** +964 (0) 62 722 2260\n- **College of Engineering Rapid Response Desk:** shru@uod.ac",
+      "tags": [
+        "Safety Guidelines",
+        "Disaster Preparedness",
+        "Public Bulletin",
+        "Kurdish & English"
+      ],
+      "status": "published",
+      "featured": false,
+      "coverImage": "https://images.unsplash.com/photo-1584467735815-f778f274e296?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-2025-08-28-01",
+      "location": "Zakho - Northern Fault Segment, Duhok Governorate",
+      "locationKurdish": "زاخۆ - بەشێ دەرزیێ باکوور، پارێزگەها دهۆک",
+      "lat": 37.142,
+      "lng": 42.684,
+      "depthKm": 12.4,
+      "magnitude": 4.1,
+      "timestamp": "2025-08-28 14:32:10 UTC",
+      "pga": 0.048,
+      "mmi": "IV (Light)",
+      "faultSystem": "Bitlis-Zagros Frontal Fault System",
+      "stationSource": "SHRU-01 Duhok Central Station",
+      "distanceFromDuhokKm": 42.1
+    },
+    {
+      "id": "evt-2025-08-19-02",
+      "location": "Akre Foothills - Zagros Thrust Zone",
+      "locationKurdish": "گرکێن ئاکرێ - دەڤەرا زاگرۆس",
+      "lat": 36.755,
+      "lng": 43.892,
+      "depthKm": 18.2,
+      "magnitude": 3.6,
+      "timestamp": "2025-08-19 03:15:44 UTC",
+      "pga": 0.021,
+      "mmi": "III (Weak)",
+      "faultSystem": "Zagros High Fold Zone",
+      "stationSource": "SHRU-02 Viaduct Array",
+      "distanceFromDuhokKm": 68.4
+    },
+    {
+      "id": "evt-2025-08-03-03",
+      "location": "Hakkari - Border Fault Zone",
+      "locationKurdish": "دەڤەرا هەکاری - سنورێ باکوور",
+      "lat": 37.581,
+      "lng": 43.738,
+      "depthKm": 10.1,
+      "magnitude": 4.8,
+      "timestamp": "2025-08-03 21:40:02 UTC",
+      "pga": 0.076,
+      "mmi": "V (Moderate)",
+      "faultSystem": "East Anatolian - Zagros Suture",
+      "stationSource": "Regional Combined Network",
+      "distanceFromDuhokKm": 98.6
+    },
+    {
+      "id": "evt-2025-07-22-04",
+      "location": "Semel Plain - Duhok Sub-basin",
+      "locationKurdish": "دەشتا سێمێلێ - دەڤەرا دهۆک",
+      "lat": 36.858,
+      "lng": 42.842,
+      "depthKm": 14.5,
+      "magnitude": 3.2,
+      "timestamp": "2025-07-22 09:12:30 UTC",
+      "pga": 0.015,
+      "mmi": "III (Weak)",
+      "faultSystem": "Low Folded Intra-basin Splay",
+      "stationSource": "SHRU-01 Free Field",
+      "distanceFromDuhokKm": 15.3
+    }
+  ]
+}
